@@ -102,6 +102,7 @@ export default function App() {
         <HowItWorks />
       </main>
       <Footer />
+      <Analytics />
     </div>
   );
 }
