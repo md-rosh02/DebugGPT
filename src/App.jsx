@@ -8,6 +8,7 @@ import HowItWorks from './components/HowItWorks.jsx';
 import Footer from './components/Footer.jsx';
 import useAnalyze from './hooks/useAnalyze.js';
 import useHistory from './hooks/useHistory.js';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   const [errorText, setErrorText] = useState('');
